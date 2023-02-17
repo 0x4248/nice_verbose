@@ -6,10 +6,10 @@ Nice verbose icon mode uses a similar style to metasploit's verbose output. Ther
 ## demo
 ### Icon mode
 
-![Icon mode]()
+![Icon mode](https://raw.githubusercontent.com/awesomelewis2007/nice_verbose/master/doc/icon%20mode.png)
 
 ### Text mode
-![Text mode]()
+![Text mode](https://raw.githubusercontent.com/awesomelewis2007/nice_verbose/master/doc/text%20mode.png)
 
 ## Usage
 ### Icon mode
@@ -49,7 +49,7 @@ int main(int argc, char const *argv[])
 ## other functions
 ### date_time perameter
 The date_time parameter is a bool that is set to false by default. If it is set to true, the date and time will be printed before the message in blue
-![Time]()
+![Time](https://raw.githubusercontent.com/awesomelewis2007/nice_verbose/master/doc/time.png)
 Icon mode:
 ```cpp
 nice_verbose::log("This is a debug", true);

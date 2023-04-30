@@ -3,12 +3,11 @@
  * GitHub: https://www.github.com/awesomelewis2007/nice_verbose
  * Licence: GPL-3.0
  * By: Lewis Evans
-*/
+ */
 
-#include <iostream>
 #include "src/nice_verbose.h"
-int main(int argc, char const *argv[])
-{
+#include <iostream>
+int main(int argc, char const *argv[]) {
     std::cout << "Icon logs" << std::endl;
     nice_verbose::debug("This is a debug");
     nice_verbose::log("This is a log");
@@ -42,13 +41,14 @@ int main(int argc, char const *argv[])
     nice_verbose::major_critical_error("This is a major critical error", true);
 
     std::cout << "Text logs" << std::endl;
-    nice_verbose_text::ok("This is a log" , true);
-    nice_verbose_text::info("This is a info" , true);
-    nice_verbose_text::warn("This is a warn" , true);
-    nice_verbose_text::error("This is a error" , true);
-    nice_verbose_text::failed("This is a failed" , true);
-    nice_verbose_text::critical_error("This is a critical error" , true);
-    nice_verbose_text::major_critical_error("This is a major critical error" , true);
+    nice_verbose_text::ok("This is a log", true);
+    nice_verbose_text::info("This is a info", true);
+    nice_verbose_text::warn("This is a warn", true);
+    nice_verbose_text::error("This is a error", true);
+    nice_verbose_text::failed("This is a failed", true);
+    nice_verbose_text::critical_error("This is a critical error", true);
+    nice_verbose_text::major_critical_error("This is a major critical error",
+                                            true);
 
     return 0;
 }

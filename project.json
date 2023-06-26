@@ -1,0 +1,14 @@
+{
+    "name": "nice_verbose",
+    "description": "A simple header file to create nice verbose output.",
+    "version": "",
+    "main_file": "src/nice_verbose.h",
+    "author": "Lewis Evans",
+    "license": "GNU General Public License v3.0",
+    "url": "/nice_vebose",
+    "email": "none",
+    "languages": [
+        "c++"
+    ],
+    "actions": {}
+}

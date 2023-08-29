@@ -4,6 +4,9 @@ A simple header file to create nice verbose output.
 Nice verbose icon mode uses a similar style to metasploit's verbose output. There is also a text mode which look like systemd's verbose output.
 
 ## demo
+
+You can find a demo in [demo.cpp](demo.cpp) to see how it works.
+
 ### Icon mode
 
 ![Icon mode](https://raw.githubusercontent.com/lewisevans2007/nice_verbose/master/doc/icon%20mode.png)

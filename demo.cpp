@@ -7,7 +7,10 @@
 
 #include "src/nice_verbose.h"
 #include <iostream>
+
 int main(int argc, char const *argv[]) {
+    std::cout << "Nice verbose demo" << std::endl;
+
     std::cout << "Icon logs" << std::endl;
     nice_verbose::debug("This is a debug");
     nice_verbose::log("This is a log");
@@ -49,6 +52,5 @@ int main(int argc, char const *argv[]) {
     nice_verbose_text::critical_error("This is a critical error", true);
     nice_verbose_text::major_critical_error("This is a major critical error",
                                             true);
-
     return 0;
 }

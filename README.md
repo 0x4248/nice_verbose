@@ -9,10 +9,10 @@ You can find a demo in [demo.cpp](demo.cpp) to see how it works.
 
 ### Icon mode
 
-![Icon mode](https://raw.githubusercontent.com/lewisevans2007/nice_verbose/master/doc/icon%20mode.png)
+![Icon mode](https://raw.githubusercontent.com/0x4248/nice_verbose/master/doc/icon%20mode.png)
 
 ### Text mode
-![Text mode](https://raw.githubusercontent.com/lewisevans2007/nice_verbose/master/doc/text%20mode.png)
+![Text mode](https://raw.githubusercontent.com/0x4248/nice_verbose/master/doc/text%20mode.png)
 
 ## Usage
 ### Icon mode
@@ -53,7 +53,7 @@ int main(int argc, char const *argv[])
 ### date_time perameter
 The date_time parameter is a bool that is set to false by default. If it is set to true, the date and time will be printed before the message in blue.
 
-![Time](https://raw.githubusercontent.com/lewisevans2007/nice_verbose/master/doc/time.png)
+![Time](https://raw.githubusercontent.com/0x4248/nice_verbose/master/doc/time.png)
 
 Icon mode:
 ```cpp
